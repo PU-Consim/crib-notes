@@ -1,0 +1,7 @@
+---
+title: Crib Notes
+format: html
+---
+## Links
+- [France '40](https://github.com/PU-Consim/crib-notes/blob/main/summary-france40.html)
+- [France '40 (Git)](summary-france40.html)
