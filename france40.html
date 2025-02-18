@@ -2157,7 +2157,10 @@ vertical-align: -.125em;
   <li><a href="#movement" id="toc-movement" class="nav-link" data-scroll-target="#movement">7 Movement</a>
   <ul class="collapse">
   <li><a href="#automatic-ds" id="toc-automatic-ds" class="nav-link" data-scroll-target="#automatic-ds">7.7 Automatic DS</a></li>
-  <li><a href="#allied-rail-movement" id="toc-allied-rail-movement" class="nav-link" data-scroll-target="#allied-rail-movement">7.6 Allied Rail Movement</a></li>
+  <li><a href="#allied-rail-movement" id="toc-allied-rail-movement" class="nav-link" data-scroll-target="#allied-rail-movement">7.6 Allied Rail Movement</a>
+  <ul class="collapse">
+  <li><a href="#train-marker-effects" id="toc-train-marker-effects" class="nav-link" data-scroll-target="#train-marker-effects">7.6.2 Train Marker Effects</a></li>
+  </ul></li>
   </ul></li>
   <li><a href="#combat" id="toc-combat" class="nav-link" data-scroll-target="#combat">8 Combat</a></li>
   <li><a href="#combat-modifiers" id="toc-combat-modifiers" class="nav-link" data-scroll-target="#combat-modifiers">9 Combat Modifiers</a>
@@ -2373,7 +2376,7 @@ vertical-align: -.125em;
 <section id="movement" class="level1">
 <h1>7 Movement</h1>
 <ul>
-<li><strong>Extended Movement</strong> increase MA by 2-4. May not move adj to, but may begin adj from enemy unit.</li>
+<li><strong>Extended Movement</strong>: Increase MA by 2-4. May not move adj to Enemy. May begin adj from Enemy.</li>
 <li><strong>Tactical Movement</strong>: All Units can move 1-2 hexes regardless MA.</li>
 <li><strong>Pontoon Bridges</strong> exist at Major River hexside where both sides are occupied by friendly Units; even [one is moving / during AAC / Disrupted / Full Retreat]. A unit forming it may move after providing other units crossings.</li>
 <li><strong>Crossing Unbrided Major Rivers</strong>: Must start adj to unless Pontoon.</li>
@@ -2395,6 +2398,15 @@ vertical-align: -.125em;
 <li><strong>Rail Movement</strong>: During Movement Ph, 15- rail hexes, 3- units per turn; must be [reinforcements / entrained in a previous turn]. Hexes traversed must be 4+ hexes from German [unit / controlled city]. May not end stacked with other Rail Moved Units.</li>
 <li><strong>Detraining</strong>: Beginning Allied Movement Phase, replace Train by Disrupted. May detrain in any rail hex. Must detrain if force to retreat or find itself 4- hexes of an enemy unit at the start of its move.</li>
 </ul>
+<section id="train-marker-effects" class="level3">
+<h3 class="anchored" data-anchor-id="train-marker-effects">7.6.2 Train Marker Effects</h3>
+<ul>
+<li>May not ATK. 1 DEF STR. No ZOC</li>
+<li>No Terrain benefit if alone. No Tank Shift.</li>
+<li>HQ cannot Ready nor provide Shifts.</li>
+<li>Detrain immediately if force to retreat.</li>
+</ul>
+</section>
 </section>
 </section>
 <section id="combat" class="level1">
@@ -2402,6 +2414,7 @@ vertical-align: -.125em;
 <ul>
 <li>Need not pre-declare all.</li>
 <li>There exist 8-1 and 9-1 columns identical to 7-1.</li>
+<li><strong>Procedure</strong>: Compute STR Odds → Apply Shifts → dr</li>
 <li><strong>Maximum STR</strong>: 20 Defense after halving and doubling. 40 Attack before halving.</li>
 <li><strong>Allied Cooperation</strong>: French, British and Belgian units may stack and defend together, but may not attack together.</li>
 <li><strong>Selecting Step losses</strong>: Infrantry Remnants are the last steps to be lost. A full strength unit must be selected first within a German Panzer or Motorized divisions stack together.</li>
@@ -2534,7 +2547,7 @@ vertical-align: -.125em;
 <ul>
 <li>Units stacked together but not participating the attack can AAC together.</li>
 <li>Except Limited Advance, may advance in any direction. No need to enter the vacated hex</li>
-<li>Stop upon entering EZOC (even if negated) unless the vacated.</li>
+<li>Stop upon entering EZOC (even if negated) unless the Vacated.</li>
 <li>Stop upon crossing a Major River even if bridged; may only cross during the first hex of AAC.</li>
 <li>Cannot enter Restricted nor prohibited.</li>
 </ul>
@@ -2680,7 +2693,7 @@ vertical-align: -.125em;
 <li>10VP if [X / N] and [S / W] have railroad connection; must be free from German unit or EZOC.</li>
 <li>5VP if not above, but can trace LOS from [X / N] to [S / W]; 5- overland &amp; road to [S / W].</li>
 <li>1VP per eli multi-step German unit (3-step’s REM should be eliminated to count); Single-step battalion worth no VP.</li>
-<li>1VP per multi-step German Mech with no LOC of any length</li>
+<li>1VP per multi-step German Mech with no LOS of any length</li>
 </ul>
 </section>
 <section id="german-vps" class="level3">
