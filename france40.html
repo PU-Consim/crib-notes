@@ -2159,7 +2159,7 @@ vertical-align: -.125em;
   <li><a href="#automatic-ds" id="toc-automatic-ds" class="nav-link" data-scroll-target="#automatic-ds">7.7 Automatic DS</a></li>
   <li><a href="#allied-rail-movement" id="toc-allied-rail-movement" class="nav-link" data-scroll-target="#allied-rail-movement">7.6 Allied Rail Movement</a>
   <ul class="collapse">
-  <li><a href="#train-marker-effects" id="toc-train-marker-effects" class="nav-link" data-scroll-target="#train-marker-effects">7.6.2 Train Marker Effects</a></li>
+  <li><a href="#train-effects" id="toc-train-effects" class="nav-link" data-scroll-target="#train-effects">7.6.2 Train Effects</a></li>
   </ul></li>
   </ul></li>
   <li><a href="#combat" id="toc-combat" class="nav-link" data-scroll-target="#combat">8 Combat</a></li>
@@ -2386,7 +2386,7 @@ vertical-align: -.125em;
 <section id="automatic-ds" class="level2">
 <h2 class="anchored" data-anchor-id="automatic-ds">7.7 Automatic DS</h2>
 <ul>
-<li>Occurs when adj units makes 10-1 (including Tank &amp; TQ Shift).</li>
+<li>Occurs when adj units makes 10-1 (including Tank &amp; TQ Shift). Apply DS.</li>
 <li>Units not participating can move through the vacated hexes.</li>
 <li><strong>Procedure</strong>: AutoDS on attacking units → cannot move further that Movement Phase → during the next Combat Ph, cannot participate regular combat, but can AAC anytime → remove AutoDS.</li>
 <li>One stack in each Automatic DS attack may conduct BRK.</li>
@@ -2399,8 +2399,8 @@ vertical-align: -.125em;
 <li><strong>Rail Movement</strong>: During Movement Ph, 15- rail hexes, 3- units per turn; must be [reinforcements / entrained in a previous turn]. Hexes traversed must be 4+ hexes from German [unit / controlled city]. May not end stacked with other Rail Moved Units.</li>
 <li><strong>Detraining</strong>: Beginning Allied Movement Phase, replace Train by Disrupted. May detrain in any rail hex. Must detrain if force to retreat or find itself 4- hexes of an enemy unit at the start of its move.</li>
 </ul>
-<section id="train-marker-effects" class="level3">
-<h3 class="anchored" data-anchor-id="train-marker-effects">7.6.2 Train Marker Effects</h3>
+<section id="train-effects" class="level3">
+<h3 class="anchored" data-anchor-id="train-effects">7.6.2 Train Effects</h3>
 <ul>
 <li>May not ATK. 1 DEF STR. No ZOC</li>
 <li>No Terrain benefit if alone. No Tank Shift.</li>
@@ -2444,7 +2444,7 @@ vertical-align: -.125em;
 <li>One favorable column shift for either ATK or DEF</li>
 <li><strong>Tank</strong>: DEF Terrain permitting, one column shift if only one side has Tanks.
 <ul>
-<li>ATK [across Rivers / out of Restricted] cannot provide but negate defender’s unless Heavy Tanks.</li>
+<li>ATK [across Rivers / out of Restricted] cannot provide Tank Shift, but deny DEF shift except Heavy Tanks.</li>
 <li>French 2-1-6 tank cannot deny German Tank Shift, Terrain permitting.</li>
 </ul></li>
 <li><strong>Heavy Tank</strong>: DEF Terrain permitting, Tank Shift regardless enemy tanks.</li>
